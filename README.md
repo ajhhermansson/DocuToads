@@ -10,6 +10,7 @@ b. If you want to perform an article-by-article comparison of the two texts, you
 
 b.i. DocuToads finds the break-points using a regular expression which is looking for the word DTBREAKPOINT. Insert this word between each article (not before the first nor after the last). 
 
+
 2) Install necessary Python packages:
 
 a. time
@@ -41,6 +42,7 @@ m. csv
 n. matplotlib
 
 
+
 3) A list of cases
 
 a. By a "case" is meant one pair of texts to be compared
@@ -64,6 +66,7 @@ b.vii. A list of article names in the second text. Make sure the list matches th
 c. Name this lists "caselist" and enter into DocuToads_main.py.
 
 
+
 4) Set the parameters
 
 a. Open DocuToads_main.py and enter the following parameters:
@@ -79,5 +82,7 @@ a.iv. by_article - Determines whether to split results article-by-article, based
 a.v. cutoff - Determines how many words in sequence there must be for the algorithm to detect a transposition, default value is 5.
 
 a.vi. ncpus – Determines how many CPU:s DocuToads will use to process several cases simultaneously. Default is 1.
+
+
 
 5) Run DocuToads_main.py
