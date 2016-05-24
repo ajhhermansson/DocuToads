@@ -1,9 +1,12 @@
 # DocuToads
-DocuToads is an open source minimum edit distance algorithm that can handle cut-paste edit operations, created by Henrik Hermansson, who reserves some rights.
+
+DocuToads is an open source minimum edit distance algorithm that can handle cut-paste edit operations, created by Henrik Hermansson, who reserves some rights. This code may be modified and used by anyone, granted that this source is cited.
 
 STEP BY STEP INSTRUCTIONS FOR USING DOCUTOADS
 
+
 1) The texts
+
 a. DocuToads accepts texts in .txt, utf8 format. Make sure all your texts are in this format.
 
 b. If you want to perform an article-by-article comparison of the two texts, you need to mark the break-points between articles.
