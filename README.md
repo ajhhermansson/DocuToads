@@ -1,6 +1,6 @@
 # DocuToads
 
-DocuToads is an open source minimum edit distance algorithm that can handle cut-paste edit operations, created by Henrik Hermansson, who reserves some rights. This code may be modified and used by anyone, granted that this source is cited.
+DocuToads is an open source minimum edit distance algorithm written in Python 2.7 that can handle cut-paste edit operations, created by Henrik Hermansson, who reserves some rights. This code may be modified and used by anyone, granted that this source is cited.
 
 STEP BY STEP INSTRUCTIONS FOR USING DOCUTOADS
 
@@ -14,7 +14,7 @@ b. If you want to perform an article-by-article comparison of the two texts, you
 b.i. DocuToads finds the break-points using a regular expression which is looking for the word DTBREAKPOINT. Insert this word between each article (not before the first nor after the last). 
 
 
-2) Install necessary Python packages:
+2) Install Python 2.7 and the following necessary Python packages:
 
 a. time
 
